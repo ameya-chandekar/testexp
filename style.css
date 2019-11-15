@@ -111,9 +111,12 @@ padding-bottom: 14%;
     border-color: rgb(202, 202, 202);
 }
 
-.kkk
-{
-    background-color: black;
-    height: 80%;
+.panel3
+{   
+    background-image: url("images/hbg5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60%;
     width: 100%;
+    
 }
