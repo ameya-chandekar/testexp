@@ -1,17 +1,13 @@
 *{font-family: lora;}
 .p1_head_1
-{ height: 95%;
-    float: left;
-    width:78%;
-   margin-left: 53%;
-  
+{ 
 }
 .p1_head_2
 {   margin-left: 10%;
     width:80%;
 }
 .head{
- height: 14%;
+ height: auto%;
  width: 100%;
  
 
@@ -46,28 +42,24 @@
 }
   .download
   {
-      height: 11%;
+      height: auto%;
       background-color:  #6363638a;
      color: aliceblue;
      font-family: 'lora';
      font-size: LARGE;
     }
-.download p img 
+.download div img 
 {
-    display:inline-block;
-    height: 80%;
-    width: 4%;
-    margin-left: 20%;
-    margin-top: 7px;
+    height: 9vh;
+    width: 7vmin;
+    margin-top: 3%;
 }
-.download  button
+.download div button
 {
-    margin-top: 5px;
-  margin-left: 15px;
+    margin-top: 4%;
+  margin-left: ;
   background-color:rgb(122, 122, 122);
-  font-size: 12px;
-  padding:7px 30px 7px 30px;
-  height: 55%;
+  font-size: 2vmin;
   border-radius: 4px;
   border: 2px solid white;
   
@@ -76,10 +68,10 @@
 .bgimg{
     background-image: url("images/hbg2.png");
     background-repeat: no-repeat;
-  
-    background-size: cover;
-  
-    height: 60%;
+    background-position: center center;
+    background-size: ;
+
+    height: auto;
     width: 100%;
     align-content: center;
      text-align: center;
@@ -124,31 +116,42 @@ padding-bottom: 14%;
 
 
 
+
+
+
 .sec4
 
 {
-    height: 95%;
+    height: auto;
     width: 100%;
     background-image: url("images/hbg6.png");
     background-size: cover;
     background-repeat: no-repeat;
+    
 
 }
-.card
+.card-title 
 {
- 
+  font-size: 4vmin;
 }
 
 .card-text
 {
-    font-size: 12px;
+    font-size: 2vmin;
 }
+.card-body button
+{
+    font-size: 2.5vmin;
+ }
+
+
+
 
 
 
 .sec5
 {
-    height: 70%;
+    height: auto%;
     width: 100%;
     background-image: url("images/testimonial-bg.jpg");
     background-size: cover;
@@ -178,7 +181,7 @@ padding-bottom: 14%;
 
 .download2
 {
-    height: 11%;
+    height: auto%;
     background-color:  #6363638a;
    color: aliceblue;
    font-family: 'lora';
@@ -208,7 +211,7 @@ border: 2px solid white;
 }
 .callus
 {
-    height: 75%;
+    height: auto;
     background-color: rgb(53, 53, 53);
 }
 .today2
@@ -240,8 +243,13 @@ border: 2px solid white;
 .pg div p strong
 { color: rgb(145, 145, 145);}
 
-.footer
+.foot
 {
     background-color:black;
-    height: 8%;
+    height: auto%;
+}
+.foot div i 
+{
+    font-size: 15px;
+    
 }
